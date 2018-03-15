@@ -18,6 +18,8 @@ class Scm implements Serializable {
   
     }
     void mavenBuild(){
+      this.script.stage('build'){
          this.script.sh "mvn -Dmaven.test.failure.ignore clean package"
     }
   }
+}
