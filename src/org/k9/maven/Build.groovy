@@ -1,4 +1,4 @@
-package org.k9.git
+package org.k9.maven
 import org.k9.*
 
 class Build implements Serializable {
