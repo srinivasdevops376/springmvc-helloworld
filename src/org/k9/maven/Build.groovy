@@ -1,11 +1,11 @@
 package org.k9.git
 import org.k9.*
 
-class Scm implements Serializable {
+class Build implements Serializable {
   def config
   def script
 
-  Scm(script,config) {
+  Build(script,config) {
     this.config = config
     this.script = script
   }
